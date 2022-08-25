@@ -60,9 +60,9 @@
         </div>
     </div>
 
-    <div class="container section" id="musik">
+    <div class="container section" id="video">
         <h1>Musik</h1>
-        <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/OmS1nUnmZyQ?controls=0&modestbranding=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/OmS1nUnmZyQ?controls=0&modestbranding=0&start=39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
     </div>
 
     <div class="container" id="profiles">

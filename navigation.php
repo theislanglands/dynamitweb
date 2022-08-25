@@ -12,6 +12,9 @@
                 <a class="nav-link" href="#om">Om</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#video">Video</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#kalender">Kalender</a>
             </li>
             <li class="nav-item">
