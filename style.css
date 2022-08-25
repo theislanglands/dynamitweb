@@ -1,0 +1,128 @@
+/* ------------ GENEREL ----------- */
+body{
+    margin:0;
+    padding:0;
+    word-wrap:break-word;
+    position:relative;
+    background: #1c235b;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.lead-text{
+
+    font-size: 1.6vw;
+}
+
+.navbar-customclass {
+    background-color: #1c235b;
+}
+
+.section{
+    background-color: #2a336c;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+/* ------------ LINKS ----------- */
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #71788c;
+}
+
+
+/* ------------ CONTENT ----------- */
+h1{
+    font-size: 2.5vw;
+
+}
+
+img{
+    margin: 0px;
+    padding:0px;
+    max-width:100%;
+    height:auto;
+}
+
+.main_image{
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    border-color: #71788c;
+}
+
+.profile_image{
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    border-color: #71788c;
+    margin: 5px;
+}
+
+#kalender ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.label-name{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+
+}
+.labels{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2vw;
+}
+
+#presse a{
+    margin-right: 30px;
+}
+
+/* ------------ HEADER ----------- */
+
+@font-face{
+    font-family: "BLKCHCRY";
+    src: url("fonts/BLKCHCRY.TTF") format("truetype");
+}
+.navbar-brand {
+    font-size: 3.5vw;
+    font-family: 'BLKCHCRY';
+    color: #000000;
+}
+
+.nav-item {
+    font-size: 1.5vw;
+}
+
+
+/* ------------ FOOTER CSS ----------- */
+#footer.navbar-nav{
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+#footer.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+
