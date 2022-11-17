@@ -1,7 +1,6 @@
 <ul>
     <?php
-    // do php stuff
-    $url = 'https://www.googleapis.com/calendar/v3/calendars/hfu117cs55kn34u2sg75hoqqj8@group.calendar.google.com/events?key=AIzaSyCoe61udGAMpHpCwTcaJA-odpx8Inxlej8&singleEvents=true&orderBy=starttime'; // path to your JSON file
+    $url= file_get_contents('.env');
     $data = file_get_contents($url); // put the contents of the file into a variable
     $characters = json_decode($data); // decode the JSON feed
 
@@ -35,7 +34,7 @@
             . "</li>";
     }
 
-    // foreach item!
+
     foreach ($characters->items as $event) {
 
         $datetime = new DateTime($event->start->dateTime);
